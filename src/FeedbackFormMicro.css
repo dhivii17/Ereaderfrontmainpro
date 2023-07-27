@@ -1,0 +1,67 @@
+/* Styles for the container holding the form */
+.contact-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the form inputs and textarea */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the toast container */
+  /* Note: The styles for the toast container are set in the ReactToastify.css file */
+  
+  /* Custom theme for the toasts */
+  /* Override the default ReactToastify theme */
+  /* Example: If you set theme="dark" in ToastContainer component */
+  .Toastify__toast--dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Additional styles for positioning the ToastContainer at the top-right */
+  /* You may need to adjust the position based on your layout */
+  .Toastify__toast-container {
+    top: 1rem;
+    right: 1rem;
+  }
+  

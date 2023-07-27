@@ -1,0 +1,62 @@
+.delete-books-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-books-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.delete-books-container label {
+  font-size: 16px;
+  color: #333;
+}
+
+.delete-books-container p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.delete-books-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.delete-books-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #c31432;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-books-container button:hover {
+  background-color: #b73f2d;
+}
+
+.delete-books-container .error {
+  color: #c31432;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.delete-books-container .success {
+  color: #228b22;
+  font-size: 14px;
+  margin-top: 5px;
+}

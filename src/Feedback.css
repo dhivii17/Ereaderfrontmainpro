@@ -1,0 +1,67 @@
+/* CSS for Feedback Component */
+
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Container Styles */
+  .feedbackFormContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form Field Styles */
+  .formField {
+    margin-bottom: 20px;
+  }
+  
+  .formField label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .formField input[type="text"],
+  .formField input[type="email"],
+  .formField textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formField textarea {
+    height: 120px;
+  }
+  
+  /* Radio and Checkbox Styles */
+  .formField label input[type="radio"],
+  .formField label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Submit Button Styles */
+  .submitButton {
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #d32f2f;
+  }
+  

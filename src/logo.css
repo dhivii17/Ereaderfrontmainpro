@@ -1,0 +1,15 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .logo-container img {
+    height:80vh;
+    width:500px;
+    max-width: 500px;
+
+  }

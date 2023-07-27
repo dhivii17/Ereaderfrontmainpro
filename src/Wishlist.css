@@ -1,0 +1,52 @@
+/* Wishlist.css */
+
+/* Styles for the heading */
+.head-view1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the table */
+  .MDBTable {
+    width: 170vh;
+    margin-left: 120px;
+  }
+  
+  .MDBTable thead th {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Styles for table rows */
+  .MDBTable tbody tr {
+    text-align: center;
+  }
+  
+  /* Styles for the book image */
+  .MDBTable tbody tr td img {
+    width: 50px;
+    height: 70px;
+  }
+  
+  /* Styles for the book title */
+  .MDBTable tbody tr td .fw-bold {
+    font-weight: bold;
+  }
+  
+  /* Styles for the delete button */
+  .MDBTable tbody tr td .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #c31432;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .MDBTable tbody tr td .btn:hover {
+    background-color: #b73f2d;
+  }
+  

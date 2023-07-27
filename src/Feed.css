@@ -1,0 +1,55 @@
+/* Styles for the container holding the feedback display */
+.feedback-display-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+  }
+  
+  .feedback-display-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-display-container p {
+    font-size: 16px;
+  }
+  
+  /* Styles for the feedback items list */
+  .feedback-display-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+  }
+  
+  .feedback-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .feedback-item strong {
+    font-weight: bold;
+  }
+  
+  .feedback-item hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+
+  }
+  
+  /* Responsive styles (optional) */
+  /* Adjust the width and margins for responsiveness */
+  @media (max-width: 600px) {
+    .feedback-display-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
